@@ -35,7 +35,7 @@ background-color: #F5F5F7CC;
 }
 .frame14{
     width: 1920px;
-    height: 4880px;
+    height: 3850px;
     gap: 12px;
     
 }
@@ -313,4 +313,217 @@ background-color: #F5F5F7CC;
 }
 #dot1-5{
     margin-top: -320px;
+}
+.scroll-heseg{
+    width: 1920px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 24px;
+    scrollbar-width: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+.scroll-item{
+    min-width:1250px;
+    height: 668px;
+    background-color: #1D1D1F;
+}
+#item1{
+background-image: url(napoleon.jpg);
+background-size: cover;
+}
+#item2{
+    background-image: url(bad-monkey.jpg);
+    background-size: cover;
+}
+#item3{
+    background-image: url(instigators.jpg);
+    background-size: cover;
+}
+#item4{
+    background-image: url(k-pop-idols.jpg);
+    background-size: cover;
+}
+#item5{
+    background-image: url(season-pass.jpg);
+    background-size: cover;
+}
+#item6{
+    background-image: url(pressumed-innocent.jpg);
+    background-size: cover;
+}
+#item7{
+    background-image: url(pachinko.jpg);
+    background-size: cover;
+}
+#item8{
+    background-image: url(baseball.jpg);
+    background-size: cover;
+}
+#item9{
+    background-image: url(lady-in-the-lake.jpg);
+    background-size: cover;
+}
+#item10{
+    background-image: url(morning-show.jpg);
+    background-size: cover;
+}
+.item1-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item2-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item3-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item4-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item5-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item6-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item7-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item8-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item9-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.item10-dot{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.steam{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding-top :590px;
+    padding-left: 50px;
+}
+.steam-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+              height: 44px;
+              padding-left: 20px;
+              padding-bottom: 12px;
+              padding-right: 20px;
+              padding-top: 12px;
+              gap: 10px;
+              background-color:  #f5f5f7;
+              border-radius: 40px;
+              font-size: 17px;
+}
+.steam h3{
+padding-left: 20px
+    ;
+    color: white;
+}
+.animation{
+ width: 90%;
+ display: flex;
+}
+.group{
+           display: flex;
+    width: 10000px;
+    gap: 10px;
+    padding:10px
+    ;
+    animation: spin 90s infinite linear;
+}
+#zurag1{
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+#zurag2{
+    background-image: url(2.jpg);
+        background-size: cover;
+}
+#zurag3{
+    background-image: url(3.jpg);
+        background-size: cover;
+}
+#zurag4{
+    background-image: url(4.jpg);
+        background-size: cover;     
+}
+#zurag5{
+    background-image: url(5.jpg);
+        background-size: cover;
+
+}
+#zurag6{
+    background-image: url(6.jpg);
+        background-size: cover;
+}
+#zurag7{
+    background-image: url(7.jpg);
+        background-size: cover;
+}
+#zurag8{
+    background-image: url(8.jpg);
+        background-size: cover;
+}
+#zurag9{
+    background-image: url(9.jpg);
+        background-size: cover;
+}
+#zurag10{
+    background-image: url(10.jpg);
+        background-size: cover;
+}
+.slider {
+  width: 417px;
+  height: 236px;
+}
+@keyframes spin{
+  from { translate: 0;
+  }
+  to { translate: -100%;
+  }
 }

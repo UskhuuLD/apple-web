@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+@media (max-width:1024px){
+.text p{
+ display: none;
+}
+.header{
+    height: 48px;
+    justify-content: space-between;
+}
+
+}
+
+    

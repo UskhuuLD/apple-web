@@ -4,7 +4,7 @@
   padding: 0;
 }
 .header{
-    width: 100%;
+    width: 100vw;
     height: 44px;
     gap: 24px;
     position: fixed;
@@ -18,7 +18,7 @@ background-color: #F5F5F7CC;
     height: 44px;
 }
 .donate{
-    width: 1920px;
+    width: 100vw;
     height: 52px;
     padding-top:60px;
     padding-bottom: 16px;
@@ -28,25 +28,25 @@ background-color: #F5F5F7CC;
     align-items: center;
 }
 .donate p{
-    width: 675px; 
+    width: 100vw; 
     height: 20px;
     font-size: 14px;
     color:#1D1D1F;
 }
 .frame14{
-    width: 1920px;
+    width: 100vw;
     height: 3850px;
     gap: 12px;
     
 }
-.frame12{width: 1920px;
+.frame12{width: 100vw;
     height: 2100px;
     gap: 12px
     ;
 
 }
 .background1{
- width: 100%;
+ width: 100vw;
  height: 692px;
  background-image: url(Figure.png);
  display: flex;
@@ -59,7 +59,7 @@ background-color: #F5F5F7CC;
 }
     .father {
   position: absolute;
-  width: 405px;
+  width: 100vw;
   height: 172px;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ background-color: #F5F5F7CC;
 .son {
   text-align: center;
   color: white;
-  width: 405px;
+  width:100vw;
   height: 60px;
   font-size: 52px;
 }
